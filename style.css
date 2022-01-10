@@ -1,0 +1,147 @@
+
+body{
+	font-family: arial;
+	
+	background-color:#f1f1f1;
+	color: white;
+}
+.headere
+ {
+ 	padding: 10px;
+ 	
+ 	background-color: green;
+ 	margin: 20px;
+ 	
+
+ }
+ .headeren
+ {
+ 	background-color:white;
+ 	width: 100%;
+ 	text-align: center;
+ 	background-position: center;
+ 	
+ 	padding: 10px;
+ 	
+ 	
+
+ }
+ 
+p{
+	display: block;
+	text-align: justify;
+	color: grey;
+}
+.header
+ {
+ 	padding: 15px;
+ 	
+ 	background-color:white;
+ 	color: green;
+ 	text-align: center;
+
+ }
+ .card{
+ 	padding: 5px;
+ 	background:#f1f1f1 ;
+ 	margin-top: 15px;
+ }
+
+
+
+ .card1{
+ 	padding: 5px;
+ 	background:white ;
+ 	margin:15px;
+ }
+ .carde{
+ 	padding: 15px;
+
+ 	
+ }
+ .row
+ {
+ 	display: table;
+ }
+ .img
+ {
+ 	padding: 15 px;
+ 	width: 100%;
+ 	display: inline;
+ 	text-align: center;
+ }
+ .img1
+ {
+ 	padding: 30px;
+ 	width: 90%;
+ 	position: cover;
+ 	display: inline;
+ 	
+ }
+ .column
+ {
+ 	float: left;
+ 	width: 30.33%;
+     margin: 10px;
+
+ }
+ .footer
+{
+	width: 100%;
+	font-weight: normal;
+	background-color:green;
+}
+
+ul
+{
+	margin: 0px;
+	padding: 0px;
+	list-style:none;
+
+}
+ul li
+{
+	float: left;
+	height: 40px;
+	width: 160px;
+	background-color: green;
+	opacity: .8;
+	line-height: 40px;
+	text-align: center;
+	font-size: 12px;
+
+}
+ul li a{
+	text-decoration: none;
+	color: white;
+}
+
+	
+ul li a:hover {
+
+	background-color: black;}
+
+ul li ul li
+{
+  display: none;
+}
+ul li:hover ul li{
+	display: block;
+}
+
+
+ul li p a{
+	float: left;
+	font-weight: bold;
+	font-size: 15px;
+	text-decoration: none;
+     color: white;
+     font-family: arial;
+}
+
+
+
+
+
+
+

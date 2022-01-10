@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>problem 5</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+	
+	<script type="text/javascript">
+		
+		var mypets = new Array(); 
+		mypets[0] = "dog"; 
+		mypets[1] = "cat";
+	    mypets[2] = "goldfish"; 
+
+	    //modified part
+
+	    var mynewpets= new Array();
+	        mynewpets[0]="Turtle";
+	        mynewpets[1]="Gerbil";
+
+	        var mypets=mypets.concat(mynewpets);
+	        var i;
+	        for (i=0;i<mypets.length;i++)
+	        {
+	        	document.write(mypets[i]+"<br>");
+	        }
+	    
+	</script>
+
+</body>
+</html>
